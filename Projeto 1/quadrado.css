@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+    
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.grid1{
+    padding: 75px;
+    width: 75x;
+    height: 75px;
+    background-color: red;
+}
+.grid2{
+    width: 75px;
+    height: 75px;
+    padding: 75px;
+    background-color: blue;
+}
+.grid3{
+    width: 75px;
+    height: 75px;
+    padding: 75px;
+    background-color: green;  
+}
+.grid4{
+    width: 75px;
+    height: 75px;
+    padding: 75px;
+    background-color: black;
+
+
+}
